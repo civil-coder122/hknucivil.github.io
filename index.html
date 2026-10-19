@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>바탕화면 달력 (Desk Calendar)</title>
+<style>
+  :root { --text:#1e2329; --muted:#5b6470; --line:#e3e7ec; --accent:#2f6fd6; --bg:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --text:#e9edf2; --muted:#a3adb9; --line:#2b323b; --accent:#7db2ff; --bg:#14181d; } }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font-family:"Malgun Gothic","Apple SD Gothic Neo","Noto Sans KR",sans-serif; line-height:1.7; }
+  main { max-width:720px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.2rem; margin:40px 0 8px; padding-top:16px; border-top:1px solid var(--line); }
+  .sub { color:var(--muted); margin:0 0 24px; }
+  ul { padding-left:1.2em; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>바탕화면 달력 (Desk Calendar)</h1>
+  <p class="sub">Windows 바탕화면에 붙는 개인용 주간 달력 프로그램</p>
+
+  <p>바탕화면 달력은 Windows 바탕화면에 투명한 달력을 띄워 두고, 사용자의 Google 캘린더 일정과
+  Google Tasks(할 일)를 보고 추가·수정·삭제할 수 있게 해 주는 개인용 프로그램입니다.
+  한국 공휴일을 함께 표시합니다.</p>
+
+  <h2 id="privacy">개인정보처리방침 (Privacy Policy)</h2>
+  <p>최종 수정일: 2026년 10월 19일</p>
+
+  <p><strong>수집하는 정보</strong></p>
+  <ul>
+    <li>사용자가 Google 계정으로 로그인하고 권한을 허락하면, 프로그램은 다음 정보에 접근합니다:
+      Google 캘린더 목록과 일정(calendar 범위), Google Tasks의 할 일 목록과 할 일(tasks 범위).</li>
+  </ul>
+
+  <p><strong>정보의 사용</strong></p>
+  <ul>
+    <li>가져온 일정과 할 일은 사용자의 컴퓨터 화면에 달력으로 표시하는 데에만 사용합니다.</li>
+    <li>사용자가 프로그램에서 일정·할 일을 추가, 수정, 삭제, 완료 처리할 때에만 Google에 변경 내용을 보냅니다.</li>
+  </ul>
+
+  <p><strong>저장과 전송</strong></p>
+  <ul>
+    <li>로그인 정보(토큰)와 마지막으로 받아 온 일정 사본은 사용자 컴퓨터의
+      <code>%APPDATA%\DeskCalendar</code> 폴더에만 저장됩니다.</li>
+    <li>개발자나 제3자의 서버로 어떤 정보도 전송하지 않으며, 정보를 판매·공유하거나 광고에 사용하지 않습니다.</li>
+    <li>프로그램은 Google API 외의 다른 곳과 통신하지 않습니다.</li>
+  </ul>
+
+  <p><strong>Google API 서비스 사용자 데이터 정책 준수</strong></p>
+  <p>이 프로그램이 Google API로부터 받은 정보의 사용 및 다른 앱으로의 전송은
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>의
+  제한적 사용(Limited Use) 요구사항을 따릅니다.</p>
+
+  <p><strong>정보 삭제와 권한 철회</strong></p>
+  <ul>
+    <li>프로그램의 [로그아웃]을 누르면 컴퓨터에 저장된 로그인 정보와 일정 사본이 삭제됩니다.</li>
+    <li>언제든지 <a href="https://myaccount.google.com/permissions">Google 계정 → 타사 연결</a>에서 이 프로그램의 접근 권한을 철회할 수 있습니다.</li>
+  </ul>
+
+  <p><strong>문의</strong></p>
+  <p>hknucivil@gmail.com</p>
+
+  <footer>© 2026 바탕화면 달력 · 개인용 프로그램</footer>
+</main>
+</body>
+</html>
